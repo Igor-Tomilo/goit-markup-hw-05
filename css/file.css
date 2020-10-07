@@ -52,6 +52,10 @@ img {
   color: var(--accent-color);
 }
 
+.address-link:hover .address-svg {
+  --color1: var(--accent-color);
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -157,11 +161,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.address-link:hover .address-svg {
-  --color1: var(--accent-color);
-  /* --color2: var(--accent-color); */
 }
 
 .address-list-link-header:not(:last-child) {
